@@ -43,7 +43,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 1. Clone this repo
 2. Open a terminal for the directory this repository is cloned to.
-3. Run 'yarn install' command
+3. Change directory to 'extension'.
+4. Run 'yarn install' command.
 
 **BOOM!** The dev environment is ready.
 
@@ -53,9 +54,28 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 2. Select 'Extensions' and then choose 'Manage Extensions'.
 3. Enable Developer mode in the top-right corner of the Extensions page.
 4. Click on 'Load unpacked' below the search bar for 'Search extensions'.
-5. Choose the 'dist' folder located inside the 'react-app' directory.
+5. Choose the 'dist' folder located inside the 'extension' directory.
 
 **BOOM!** The extension should now be added to your Chrome as an extension.
+
+## How to Publish your Extension to Chrome Store?
+
+1. Check the validity of 'manifest.json' file using [JSONLink](https://jsonlint.com/)
+2. Test the extension by loading its unpacked version on the [Extensions](chrome://extensions/) page.
+3. Zip the folder that contains the extension files.
+4. Register as a Chrome Web Store Developer on the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole/register) and pay the 5$ registration fee.
+5. Customize developer and publisher settings.
+6. Go to the 'Items' tab on the [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole/)
+7. Click on 'New item' on the top-right corner of the webpage.
+8. Publish it in the way you desire (public, unlisted, private, group publishing) on [Chrome Web Store](https://developer.chrome.com/webstore/publish)
+
+**BOOM!** The extension is now on Chrome Store.
+
+## How to Share a Chrome Extension Link?
+
+1. Go to the extension page on Chrome Web Store.
+2. Copy the url of the extension page.
+3. Share it with your friends.
 
 ## Learn More
 
