@@ -60,16 +60,43 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## How to Publish your Extension to Chrome Store?
 
+### Requirements
 1. Check the validity of 'manifest.json' file using [JSONLink](https://jsonlint.com/)
 2. Test the extension by loading its unpacked version on the [Extensions](chrome://extensions/) page.
-3. Zip the folder that contains the extension files.
+3. Zip the 'dist' folder.
 4. Register as a Chrome Web Store Developer on the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole/register) and pay the 5$ registration fee.
 5. Customize developer and publisher settings.
-6. Go to the 'Items' tab on the [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole/)
-7. Click on 'New item' on the top-right corner of the webpage.
-8. Publish it in the way you desire (public, unlisted, private, group publishing) on [Chrome Web Store](https://developer.chrome.com/webstore/publish)
+   
+### Uploading the Extension
+1. Go to the 'Items' tab on the [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole/)
+2. Click on 'New item' on the top-right corner of the webpage.
+3. Upload the zipped 'dist' folder.
+**NOTE:** Your account must have 2 Factor Authentication (2FA). Go to [Authentication](https://safety.google/authentication/) to activate 2FA for your account.
 
-**BOOM!** The extension is now on Chrome Store.
+### Submission of Extension
+
+**Note:** Don't forget to click on 'Save draft' once in a while to avoid data loss due to unpredictable issues from your side.
+#### Store Listing
+1. Fill out the 'Description' field focusing on what the extension does and why users should install it.
+2. Select the category the extension relates the most in the 'Category' dropdown menu.
+3. Select the primary language of the extension in the 'Language' dropdown menu.
+4. Upload the store icon as a png file with size of 128x128.
+5. Upload the screenshots of the extension (at least 1, at most 5) as 24-bit png or jpeg files with sizes of 1280x800 or 640x400.
+
+#### Privacy
+1. Fill out the 'Single purpose' field by describing the extension's single purpose that is narro and easy-to-understand.
+2. Fill out 'Permission justification' field by explaining why the extension requests each permission.
+3. If remote code is used, justify its reason for using remote code.
+4. Select what user data do you plan to collect from users now or in the future in the 'Data usage' field.
+5. If true, certify all disclosures.
+6. If the extension collects user data, fill out the 'Privacy policy URL' field with extension's privacy policy URL
+
+#### Distribution
+1. Select whether the extension will be free or it offers in-app purchases.
+2. Select extension's visibility.
+3. Select in which regions the extension will be available for.
+
+**Last Step:** Once every required field is filled out sufficiently and you are satisfied with your submission draft, you may click on 'Submit for review'.
 
 ## How to Share a Chrome Extension Link?
 
