@@ -57,6 +57,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 **BOOM!** The extension should now be added to your Chrome as an extension.
 
+## How to Publish your Extension to Chrome Store?
+
+1. Check the validity of 'manifest.json' file using [JSONLink](https://jsonlint.com/)
+2. Test the extension by loading its unpacked version on the [Extensions](chrome://extensions/) page.
+3. Zip the folder that contains the extension files.
+4. Publish it in the way you desire (public, unlisted, private, group publishing) on [Chrome Web Store](https://developer.chrome.com/webstore/publish)
+
+**BOOM** The extension is now on Chrome Store.
+
+## How to Share a Chrome Extension Link?
+
+1. Go to the extension page on Chrome Web Store.
+2. Copy the url of the extension page.
+3. Share it with your friends.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
