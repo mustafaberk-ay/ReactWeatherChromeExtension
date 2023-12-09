@@ -64,7 +64,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 3. Zip the folder that contains the extension files.
 4. Publish it in the way you desire (public, unlisted, private, group publishing) on [Chrome Web Store](https://developer.chrome.com/webstore/publish)
 
-**BOOM** The extension is now on Chrome Store.
+**BOOM!** The extension is now on Chrome Store.
 
 ## How to Share a Chrome Extension Link?
 
