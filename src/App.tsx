@@ -18,6 +18,7 @@ function App() {
       <h1>Current Weather in {weatherData?.data[0].city_name}</h1>
       <p>{weatherData?.data[0].weather.description}</p>
       <p>Temperature: {weatherData?.data[0].app_temp} celsius</p>
+      <iframe src='http://localhost:5173/'></iframe>
     </div>
   );
 }
