@@ -7,3 +7,8 @@ export type WeatherType = {
         };
     }]
 }
+
+export type LocationType = {
+    lat: number;
+    lon: number;
+}
