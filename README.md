@@ -39,77 +39,84 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## How to Setup the Dev Environment?
+## How to Set Up the Development Environment
 
-1. Clone this repo
-2. Open a terminal within the directory this repository is cloned to.
-3. Change directory to 'extension'.
-4. Run 'yarn install' command.
+1. Clone this repository.
+2. Open a terminal within the directory where this repository is cloned.
+3. Change the directory to 'extension'.
+4. Run the 'yarn install' command.
 
-**BOOM!** The dev environment is ready.
+**BOOM!** The development environment is ready.
 
-## How to Add This to Your Browser as an Extension:
+## How to Add This Extension to Your Browser:
 
 1. Click on the 'three dots' in the top-right corner of Chrome.
-2. Select 'Extensions' and then choose 'Manage Extensions'.
+2. Select 'Extensions,' then choose 'Manage Extensions.'
 3. Enable Developer mode in the top-right corner of the Extensions page.
-4. Click on 'Load unpacked' below the search bar for 'Search extensions'.
+4. Click on 'Load unpacked' below the search bar for 'Search extensions.'
 5. Choose the 'dist' folder located inside the 'extension' directory.
 
-**BOOM!** The extension should now be added to your Chrome as an extension.
+**BOOM!** The extension should now be added to your Chrome browser.
 
-## How to Publish your Extension to Chrome Store?
+## How to Publish Your Extension to the Chrome Store:
 
 ### Initial Configurations for Submission
-1. Check the validity of 'manifest.json' file using [JSONLint](https://jsonlint.com/)
+
+1. Validate the 'manifest.json' file using [JSONLint](https://jsonlint.com/).
 2. Test the extension by loading its unpacked version on the [Extensions](chrome://extensions/) page.
 3. Zip the 'dist' folder.
-4. Register as a Chrome Web Store Developer on the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole/register) and pay the 5$ registration fee.
+4. Register as a Chrome Web Store Developer on the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole/register) and pay the $5 registration fee.
 
 #### Configuring Developer and Publisher Settings
-1. Fill out the 'Publisher display name' field with the name that will appear to users under the name of the extension.
+
+1. Fill out the 'Publisher display name' field with the name that will appear to users under the extension's name.
 2. Fill out the 'Contact email address' field with the email address that will be publicly displayed in connection with the extension.
 3. Declare whether your publisher account is considered a trader or non-trader with respect to European Economic Area (EEA) consumer protection laws in the 'Trader declaration field'.
-4. Fill out the 'Trusted tester accounts' field with the email addresses of the specific accounts that extension will be visible to for testing purposes.
+4. Fill out the 'Trusted tester accounts' field with the email addresses of the specific accounts that the extension will be visible to for testing purposes.
 5. Enable the notifications you would like to receive in the 'Notifications' field.
 6. Declare whether visibility is enabled or not in the 'Item support' field.
-   
+
 ### Uploading the Extension
-1. Go to the 'Items' tab on the [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole/)
-2. Click on 'New item' on the top-right corner of the webpage.
+
+1. Go to the 'Items' tab on the [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole/).
+2. Click on 'New item' in the top-right corner.
 3. Upload the zipped 'dist' folder.
-   
+
 **NOTE:** Your account must have 2 Factor Authentication (2FA). Go to [Authentication](https://safety.google/authentication/) to activate 2FA for your account.
 
 ### Submission of Extension
 
-**CAUTION:** Don't forget to click on 'Save draft' once in a while to avoid data loss due to unpredictable issues from your side.
+**CAUTION:** Don't forget to click on 'Save draft' periodically to avoid data loss due to unpredictable issues.
+
 #### Store Listing
+
 1. Fill out the 'Description' field focusing on what the extension does and why users should install it.
-2. Select the category the extension relates the most in the 'Category' dropdown menu.
-3. Select the primary language of the extension in the 'Language' dropdown menu.
-4. Upload the store icon as a png file with size of 128x128 in the 'Store icon' field.
-5. Upload the screenshots of the extension (at least 1, at most 5) as 24-bit png or jpeg files with sizes of 1280x800 or 640x400 in the 'Screenshots' field.
+2. Select the category that best fits the extension from the 'Category' dropdown menu.
+3. Choose the primary language of the extension in the 'Language' dropdown menu.
+4. Upload the store icon as a PNG file with a size of 128x128 in the 'Store icon' field.
+5. Upload at least 1, and at most 5, screenshots of the extension as 24-bit PNG or JPEG files with sizes of 1280x800 or 640x400 in the 'Screenshots' field.
 
 #### Privacy
-1. Fill out the 'Single purpose' field by describing the extension's single purpose that is narrow and easy-to-understand.
-2. Fill out 'Permission justification' field by explaining why the extension requests each permission.
-3. If remote code is used, declare that you are using remote code and fill out your justification for using remote code in the 'Permission justification' field.
-4. Select what user data do you plan to collect from users now or in the future in the 'Data usage' field.
-5. If true, certify all disclosures.
-6. If the extension collects user data, fill out the 'Privacy policy URL' field with extension's privacy policy URL
+
+1. Fill out the 'Single purpose' field by describing the extension's single purpose in a narrow and easy-to-understand manner.
+2. Explain why the extension requests each permission in the 'Permission justification' field.
+3. If remote code is used, declare it and justify its use in the 'Permission justification' field.
+4. Select what user data you plan to collect now or in the future in the 'Data usage' field.
+5. If applicable, certify all disclosures.
+6. If the extension collects user data, fill out the 'Privacy policy URL' field with the extension's privacy policy URL.
 
 #### Distribution
-1. Select whether the extension will be free or it offers in-app purchases in the 'Payments' field.
-3. Select extension's visibility in the 'Visibility' field.
-4. Select in which regions the extension will be available for in the 'Distribution' field.
 
-**Last Step:** Once every required field is filled out sufficiently and you are satisfied with your submission draft, you may click on 'Submit for review'.
+1. Select whether the extension will be free or offer in-app purchases in the 'Payments' field.
+2. Choose the extension's visibility in the 'Visibility' field.
+3. Specify in which regions the extension will be available in the 'Distribution' field.
 
-## How to Share a Chrome Extension Link?
+**Last Step:** Once all required fields are filled out sufficiently, and you are satisfied with your submission draft, click on 'Submit for review.'
 
-1. Go to the 'Extensions' page on [Chrome Web Store](https://chromewebstore.google.com/category/extensions).
-2. Copy the URL of an extension page.
+## How to Share a Chrome Extension Link:
+
+1. Go to the 'Extensions' page on the [Chrome Web Store](https://chromewebstore.google.com/category/extensions).
+2. Copy the URL of the extension page.
 3. Share the copied URL with your friends.
 
 ## Learn More
