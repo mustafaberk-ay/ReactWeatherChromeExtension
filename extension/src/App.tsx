@@ -43,7 +43,6 @@ function App() {
           <p>Temperature: {weatherData?.data[0].app_temp} celsius</p>
         </div>
       ) : null}
-      <iframe src='http://localhost:5173/'></iframe>
     </div>
   );
 }
