@@ -4,15 +4,15 @@
 
 ### Package Installations
 Go to [this website](https://nodejs.org/en/download) and select the suitable installer to download Node.js and npm.
+Install yarn by running 'npm install --global yarn'.
 
 ### Project Initialization
 Create a directory for your project by running 'mkdir ReactWeatherChromeExtension'. This will be the root directory.
 
 #### extension Project
-1. In the root directory, run 'npm create vite@latest' to create your project.
-2. Respectively, enter your project name 'extension', select a framework 'React', select a variant 'TypeScript'.
+1. In the root directory, run 'yarn create react-app extension --template typescript' to create your project.
 3. Run 'cd extension' to go to the extension project's directory.
-4. Run 'npm install' to install the required packages.
+4. Run 'yarn install' to install the required packages.
 You are now ready to code the 'extension' project!
 
 #### vite-ts-app Project
@@ -24,40 +24,34 @@ You are now ready to code the 'vite-ts-app' project!
 
 ## Available Scripts
 
-In the project directory, you can run:
+### How to Install Required Packages?
 
-### `yarn start`
+#### extension
+Run 'yarn install' to install the required packages for the extension project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### vite-ts-app
+Run 'npm install' to install the required packages for the vite-ts-app project.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### How to Run the Projects in Development Mode?
 
-### `yarn test`
+#### extension
+Run 'yarn start' to run the extension project in the development mode.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### vite-ts-app
+Run 'npm run dev' to run the vite-ts-app project in the development mode.
 
-### `yarn build`
+### How to Build the Projects for Production?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### extension
+Run 'yarn build' to build the extension project for production to the `dist` folder.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### vite-ts-app
+Run 'npm run build' to build the vite-ts-app project for production to the `build` folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### How to Debug the Projects?
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### extension
+Run 'yarn test' to launch the test runner in the interactive watch mode for the extension proejct.
 
 ## How to Set Up the Development Environment
 
