@@ -2,8 +2,9 @@
 
 ## Package Installations
 
-1. Go to [Node.js website](https://nodejs.org/en/download) and choose the appropriate installer to download Node.js and npm.
-2. Install Yarn by running `npm install --global yarn`.
+1. Go to [Node.js website](https://nodejs.org/en/download) and choose the appropriate installer to download Node.js and npm. If you have chocolatey package manager, then you can also install Node.js by running `choco install nodejs`. Please note that npm is included in the Node.js installation.
+2. Install Yarn by running `npm install --global yarn`. If you have chocolatey package manager, then you can also install Yarn by running `choco install yarn`.
+3. Install Google Chrome by running `choco install googlechrome` to be able to run projects on Google Chrome.
 
 ## Project Initialization
 
