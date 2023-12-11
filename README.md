@@ -3,7 +3,7 @@
 ## Initial Setup
 
 ### Package Installations
-Go to [this website](https://nodejs.org/en/download) and select the suitable installer to download Node.js and npm.
+Go to [this website](https://nodejs.org/en/download) and select the suitable installer to download Node.js and npm. <br>
 Install yarn by running 'npm install --global yarn'.
 
 ### Project Initialization
