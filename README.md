@@ -5,7 +5,7 @@
 ### Package Installations
 Go to [this website](https://nodejs.org/en/download) and select the suitable installer to download Node.js and npm.
 
-### Project Initilization
+### Project Initialization
 Create a directory for your project by running 'mkdir ReactWeatherChromeExtension'. This will be the root directory.
 
 #### extension Project
