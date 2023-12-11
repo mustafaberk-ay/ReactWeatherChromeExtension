@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Initial Setup
+
+### Package Installations
+Go to [this website](https://nodejs.org/en/download) and select the suitable installer to download Node.js and npm.
+
+### Project Initilization
+Create a directory for your project by running 'mkdir ReactWeatherChromeExtension'. This will be the root directory.
+
+#### extension Project
+1. In the root directory, run 'npm create vite@latest' to create your project.
+2. Respectively, enter your project name 'extension', select a framework 'React', select a variant 'TypeScript'.
+3. Run 'cd extension' to go to the extension project's directory.
+4. Run 'npm install' to install the required packages.
+You are now ready to code the 'extension' project!
+
+#### vite-ts-app Project
+1. In the root directory, run 'npm create vite@latest' to create your project.
+2. Respectively, enter your project name 'vite-ts-app', select a framework 'React', select a variant 'TypeScript'.
+3. Run 'cd vite-ts-app' to go to the vite-ts-app project's directory.
+4. Run 'npm install' to install the required packages.
+You are now ready to code the 'vite-ts-app' project!
 
 ## Available Scripts
 
