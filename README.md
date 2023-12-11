@@ -46,7 +46,7 @@ Run 'npm run dev' to run the vite-ts-app project in the development mode.
 Run 'yarn build' to build the extension project for production to the `dist` folder.
 
 #### vite-ts-app
-Run 'npm run build' to build the vite-ts-app project for production to the `build` folder.
+Run 'npm run build' to build the vite-ts-app project for production to the `dist` folder.
 
 ### How to Debug the Projects?
 
